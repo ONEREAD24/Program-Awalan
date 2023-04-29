@@ -1,0 +1,13 @@
+name_dict = {
+            "LOL" : "tanggapan terhadap sesuatu yang lucu",
+            "CRINGE" : "sesuatu yang aneh atau memalukan",
+            "ROFL" : "tanggapan terhadap lelucon",
+            "SHEESH" : "sedikit ketidaksetujuan",
+            "CREEPY" : "menakutkan, tidak menyenangkan",
+            "AGGRO" : "untuk menjadi agresif/marah",
+            }
+
+for i in range(5):            
+    search = input("Cari arti bahasa gaul (huruf kapital):")
+    if search in name_dict.keys():
+        print(name_dict[search])
